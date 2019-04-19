@@ -9,7 +9,7 @@ import LoginPanel from './loginPanel';
 import Styles from './styles';
 
 
-class Login extends Component{
+class LoginScreen extends Component{
 
     constructor(props){
         super(props);
@@ -66,4 +66,4 @@ class Login extends Component{
 
 
 
-export default Login;
+export default LoginScreen;
