@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="148px" viewBox="0 0 128 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash">
+            <g id="Group-9" transform="translate(-60.000000, -40.000000)">
+                <path d="M94,188 C42.0852335,188 0,145.914766 0,94 C0,42.0852335 42.0852335,0 94,0 C145.914766,0 188,42.0852335 188,94 C188,145.914766 145.914766,188 94,188 Z M94,147 C123.271092,147 147,123.271092 147,94 C147,64.7289083 123.271092,41 94,41 C64.7289083,41 41,64.7289083 41,94 C41,123.271092 64.7289083,147 94,147 Z" id="Combined-Shape" fill="#FA2C46"></path>
+                <circle id="Oval-25" fill="#FFBC00" cx="94.5" cy="94.5" r="22.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

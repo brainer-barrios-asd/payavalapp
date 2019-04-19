@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="269px" viewBox="0 0 320 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>7AC3410B-EA8E-460E-9F4F-2B89E7280147</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash" transform="translate(0.000000, -422.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(0.000000, 422.000000)">
+                <rect id="Rectangle" x="0" y="0" width="320" height="269"></rect>
+                <rect id="Rectangle" x="0" y="0" width="320" height="269"></rect>
+                <rect id="Rectangle" x="0" y="0" width="320" height="269"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="102px" viewBox="0 0 116 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>A2F78726-A690-4B27-9633-3D3EB7D988CE</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="35" r="35"></circle>
+        <filter x="-59.3%" y="-43.6%" width="218.6%" height="218.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="11" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.784851789   0 0 0 0 0.840820548   0 0 0 0 0.920466624  0 0 0 0.990800498 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mi-plata" transform="translate(-102.000000, -589.000000)" fill-rule="nonzero">
+            <g id="Group-14" transform="translate(125.000000, 601.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group-11" transform="translate(25.000000, 25.000000)" fill="#FF0033">
+                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="8" y="0" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="0" y="8" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="16" y="8" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="0" y="16" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="8" y="16" width="4" height="4"></rect>
+                    <rect id="Rectangle" x="16" y="16" width="4" height="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+{
+    "appName": "dale!",
+    "screens":{
+        "splashScreen":{
+            "login_label":"Iniciar Sesión",
+            "register_label":"Registrarme"
+        },
+        "loginScreen":{
+            "login_label":"Iniciar Sesión",
+            "email_label":"Correo Electrónico",
+            "password_label":"Contraseña",
+            "forgot_password_label":"Olvidé mi contraseña",
+            "remember_password_label":"Recordar mi contraseña",
+            "continue_label":"Continuar",
+            "register_label":"Registrarme"
+        }
+    }
+}

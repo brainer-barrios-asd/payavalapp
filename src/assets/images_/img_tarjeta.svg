@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="158px" viewBox="0 0 260 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Group 6 Copy 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="46.037023%" x2="100%" y2="52.6693354%" id="linearGradient-1">
+            <stop stop-color="#FF7C99" offset="0%"></stop>
+            <stop stop-color="#FA2C46" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="260.000003" height="157.175143" rx="4.89642191"></rect>
+        <path d="M107.562759,215.125517 C48.1574874,215.125517 0,166.96803 0,107.562759 C0,48.1574874 48.1574874,0 107.562759,0 C166.96803,0 215.125517,48.1574874 215.125517,107.562759 C215.125517,166.96803 166.96803,215.125517 107.562759,215.125517 Z M107.562759,168.209846 C141.05722,168.209846 168.209846,141.05722 168.209846,107.562759 C168.209846,74.0682972 141.05722,46.9156713 107.562759,46.9156713 C74.0682972,46.9156713 46.9156713,74.0682972 46.9156713,107.562759 C46.9156713,141.05722 74.0682972,168.209846 107.562759,168.209846 Z" id="path-4"></path>
+        <filter x="-0.5%" y="-0.5%" width="100.9%" height="100.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.528249547 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-6" cx="107.154809" cy="107.154809" r="25.5648529"></circle>
+        <filter x="-2.0%" y="-2.0%" width="103.9%" height="103.9%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.528249547 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <text id="text-8" font-family="OCRAExtended, OCR A Extended" font-size="11.4759889" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="0" y="21.2617704">09/15</tspan>
+        </text>
+        <filter x="-5.7%" y="-8.3%" width="111.4%" height="133.3%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-10" font-family="OCRAExtended, OCR A Extended" font-size="11.4759889" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="0" y="21.2617704">JESUS A. BUENO</tspan>
+        </text>
+        <filter x="-2.0%" y="-8.3%" width="104.1%" height="133.3%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-12" font-family="OCRAExtended, OCR A Extended" font-size="15.3013185" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="0" y="13">XXXX</tspan>
+        </text>
+        <filter x="-5.4%" y="-6.2%" width="110.8%" height="125.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.649881114 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-14" font-family="OCRAExtended, OCR A Extended" font-size="15.3013185" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="53.5546146" y="13">XXXX</tspan>
+        </text>
+        <filter x="-5.4%" y="-6.2%" width="110.8%" height="125.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.649881114 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-16" font-family="OCRAExtended, OCR A Extended" font-size="15.3013185" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="107.109229" y="13">XXXX</tspan>
+        </text>
+        <filter x="-5.4%" y="-6.2%" width="110.8%" height="125.0%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.649881114 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-18" font-family="OCRAExtended, OCR A Extended" font-size="15.3013185" font-style="expanded" font-weight="normal" fill="#FFFFFF">
+            <tspan x="161.42891" y="13">XXXX</tspan>
+        </text>
+        <filter x="-5.4%" y="-6.2%" width="110.8%" height="125.0%" filterUnits="objectBoundingBox" id="filter-19">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.649881114 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="64.2523545%" y1="22.4194218%" x2="31.5395311%" y2="77.5805782%" id="linearGradient-20">
+            <stop stop-color="#FFEA9E" offset="0%"></stop>
+            <stop stop-color="#C19D39" offset="48.5880661%"></stop>
+            <stop stop-color="#D09B21" offset="64.6853361%"></stop>
+            <stop stop-color="#ECCF6B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="68.9587823%" y1="22.4194218%" x2="39.6484375%" y2="77.5805782%" id="linearGradient-21">
+            <stop stop-color="#FFECC8" offset="0%"></stop>
+            <stop stop-color="#D0B978" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="71.1746118%" cy="23.2956728%" fx="71.1746118%" fy="23.2956728%" r="114.504935%" gradientTransform="translate(0.711746,0.232957),scale(0.742706,1.000000),rotate(133.219249),scale(1.000000,0.580845),translate(-0.711746,-0.232957)" id="radialGradient-22">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.905405405" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-23" x="0.530334714" y="0" width="30.7594134" height="22.8451877" rx="3.18200846"></rect>
+        <filter x="-4.9%" y="-6.6%" width="109.8%" height="113.1%" filterUnits="objectBoundingBox" id="filter-24">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-25" x="20.1527191" y="5.84411778" width="11.1535642" height="1"></rect>
+        <filter x="-4.5%" y="-94.1%" width="109.0%" height="476.4%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-27" x="20.1527191" y="13.2820859" width="11.1535642" height="1"></rect>
+        <filter x="-4.5%" y="-94.1%" width="109.0%" height="476.4%" filterUnits="objectBoundingBox" id="filter-28">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-29" x="0.513799552" y="5.84411778" width="11.1535642" height="1"></rect>
+        <filter x="-4.5%" y="-94.1%" width="109.0%" height="476.4%" filterUnits="objectBoundingBox" id="filter-30">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-31" x="0.513799552" y="13.2820859" width="11.1535642" height="1"></rect>
+        <filter x="-4.5%" y="-94.1%" width="109.0%" height="476.4%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M11.8644654,14.2293316 C12.5196151,17.4150642 14.0843674,19.6574871 15.9104679,19.6574871 C17.7461137,19.6574871 19.317672,17.39156 19.9666694,14.1792975 C20.1718061,13.1639579 19.312704,10.9915047 19.312704,9.82874354 C19.312704,8.68265424 20.1750223,6.52536762 19.9754364,5.52192212 C19.3319114,2.28651221 17.7544329,0 15.9104679,0 C14.0774658,0 12.5077909,2.25940518 11.8570761,5.46431689 C11.6501615,6.48341641 12.5082318,8.66068448 12.5082318,9.82874354 C12.5082318,11.0106337 11.6528771,13.2004617 11.8644654,14.2293316 Z" id="path-33"></path>
+        <filter x="-9.4%" y="-3.9%" width="118.8%" height="112.9%" filterUnits="objectBoundingBox" id="filter-34">
+            <feMorphology radius="0.265167372" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.6 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tarjeta-Debito" transform="translate(-30.000000, -78.000000)">
+            <g id="Group-6-Copy-12" transform="translate(30.000000, 78.000000)">
+                <g id="Group">
+                    <g id="Group-4">
+                        <g id="Group-3">
+                            <g id="Group-9">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                                <g mask="url(#mask-3)" opacity="0.5">
+                                    <g transform="translate(152.573218, -32.092049)">
+                                        <g id="Combined-Shape">
+                                            <use fill-opacity="0.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                        </g>
+                                        <g id="Oval-25">
+                                            <use fill-opacity="0.6" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="expiration" transform="translate(210.546142, 119.472695)" fill="#FFFFFF">
+                            <g id="09/15" fill-opacity="1">
+                                <use filter="url(#filter-9)" xlink:href="#text-8"></use>
+                                <use xlink:href="#text-8"></use>
+                            </g>
+                            <text id="EXPIRES" font-family="Helvetica" font-size="5.35546146" font-weight="normal" letter-spacing="1.14759876">
+                                <tspan x="0.979284382" y="5">EXPIRES</tspan>
+                            </text>
+                        </g>
+                        <g id="card-holder" transform="translate(14.689266, 119.472695)" fill="#FFFFFF">
+                            <g id="JESUS-A.-BUENO" fill-opacity="1">
+                                <use filter="url(#filter-11)" xlink:href="#text-10"></use>
+                                <use xlink:href="#text-10"></use>
+                            </g>
+                            <text id="CARD-HOLDER" font-family="Helvetica" font-size="5.35546146" font-weight="normal" letter-spacing="1.14759876">
+                                <tspan x="0.979284382" y="5">CARD HOLDE</tspan>
+                                <tspan x="47.5691082" y="5">R</tspan>
+                            </text>
+                        </g>
+                        <g id="card-number" transform="translate(14.686192, 83.765688)" fill="#FFFFFF" fill-opacity="1">
+                            <g id="XXXX">
+                                <use filter="url(#filter-13)" xlink:href="#text-12"></use>
+                                <use xlink:href="#text-12"></use>
+                            </g>
+                            <g id="XXXX">
+                                <use filter="url(#filter-15)" xlink:href="#text-14"></use>
+                                <use xlink:href="#text-14"></use>
+                            </g>
+                            <g id="XXXX">
+                                <use filter="url(#filter-17)" xlink:href="#text-16"></use>
+                                <use xlink:href="#text-16"></use>
+                            </g>
+                            <g id="XXXX">
+                                <use filter="url(#filter-19)" xlink:href="#text-18"></use>
+                                <use xlink:href="#text-18"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-7" transform="translate(16.250000, 16.250000)">
+                        <path d="M22.6687503,4.15245541 L22.6687503,14.207143 L19.639286,14.207143 L19.639286,13.2669645 C18.9863842,14.0243305 17.9939735,14.4944198 16.6359377,14.4944198 C13.9982145,14.4944198 11.8305805,12.1700894 11.8305805,9.19285726 C11.8305805,6.18950901 13.9982145,3.89129469 16.6359377,3.89129469 C17.9939735,3.89129469 18.9602681,4.36138399 19.639286,5.11875007 L19.639286,4.17857148 L22.6687503,4.17857148 L22.6687503,4.15245541 Z M19.665402,9.16674119 C19.665402,7.65200903 18.6468752,6.71183045 17.2627234,6.71183045 C15.8785716,6.71183045 14.8600448,7.65200903 14.8600448,9.16674119 C14.8600448,10.6814734 15.8785716,11.6216519 17.2627234,11.6216519 C18.6468752,11.6216519 19.665402,10.6814734 19.665402,9.16674119 Z" id="XMLID_190_" fill="#FFFFFF"></path>
+                        <path d="M7.28638403,12.4573662 C7.28638403,11.3343752 8.20044654,10.4464287 9.29732155,10.4464287 C10.4203126,10.4464287 11.3082591,11.3604912 11.3082591,12.4573662 C11.3082591,13.5803573 10.3941966,14.4683038 9.29732155,14.4683038 C8.17433047,14.4944198 7.28638403,13.5803573 7.28638403,12.4573662 Z" id="XMLID_188_" fill="#F7323F"></path>
+                        <path d="M39.9837059,12.4573662 C39.9837059,11.3343752 40.8977684,10.4464287 41.9946434,10.4464287 C43.0915184,10.4464287 44.0055809,11.3604912 44.0055809,12.4573662 C44.0055809,13.5803573 43.0915184,14.4683038 41.9946434,14.4683038 C40.8977684,14.4683038 39.9837059,13.5803573 39.9837059,12.4573662 Z" id="XMLID_186_" fill="#FFC700"></path>
+                        <polygon id="XMLID_184_" fill="#FFFFFF" points="24.392411 0.156696431 27.4218754 0.156696431 27.4218754 14.207143 24.392411 14.207143"></polygon>
+                        <polygon id="XMLID_182_" fill="#00C1DE" points="40.4537952 0.156696431 43.4832595 0.156696431 43.4832595 9.37566977 40.4537952 9.37566977"></polygon>
+                        <path d="M34.1075897,11.7783484 C34.943304,11.7783484 35.648438,11.4649555 36.040179,11.0209823 L38.4428577,12.4051341 C37.4504469,13.7631698 35.9618308,14.4683038 34.0553576,14.4683038 C30.6080361,14.4683038 28.4926343,12.1439734 28.4926343,9.16674119 C28.4926343,6.16339294 30.6602683,3.86517862 33.846429,3.86517862 C36.7714291,3.86517862 38.9651791,6.13727687 38.9651791,9.16674119 C38.9651791,9.58459834 38.9129469,10.0024555 38.8345987,10.3680805 L31.7049111,10.3680805 C32.0705361,11.4388394 33.0107147,11.7783484 34.1075897,11.7783484 Z M35.9618308,8.12209832 C35.648438,6.94687509 34.7343755,6.52901794 33.8203129,6.52901794 C32.6712058,6.52901794 31.9138397,7.10357152 31.6265629,8.12209832 L35.9618308,8.12209832 Z" id="XMLID_179_" fill="#FFFFFF"></path>
+                        <path d="M6.2939733,12.4573662 C6.2939733,12.0917412 6.34620544,11.7522323 6.4767858,11.4388394 C6.16339294,11.5694198 5.82388401,11.6216519 5.458259,11.6216519 C4.0741072,11.6216519 3.0555804,10.6814734 3.0555804,9.16674119 C3.0555804,7.65200903 4.0741072,6.71183045 5.458259,6.71183045 C6.8424108,6.71183045 7.8609376,7.65200903 7.8609376,9.16674119 C7.8609376,9.42790191 7.83482153,9.66294656 7.78258939,9.87187513 C8.22656261,9.61071441 8.74888404,9.45401798 9.29732155,9.45401798 C9.87187513,9.45401798 10.4203126,9.61071441 10.8904019,9.8979912 L10.8904019,0.156696431 L7.8609376,0.156696431 L7.8609376,5.092634 C7.20803581,4.33526791 6.21562508,3.86517862 4.85758935,3.86517862 C2.2198661,3.86517862 0.0522321435,6.18950901 0.0522321435,9.16674119 C0.0522321435,12.1700894 2.2198661,14.4683038 4.85758935,14.4683038 C5.58883936,14.4683038 6.24174115,14.3377234 6.76406259,14.0765627 C6.4767858,13.6325895 6.2939733,13.0580359 6.2939733,12.4573662 Z" id="XMLID_178_" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+                <g id="Chip-Copy-2" transform="translate(14.686192, 50.313806)">
+                    <g id="Rectangle-41" opacity="0.9">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                        <use fill="url(#linearGradient-20)" fill-rule="evenodd" xlink:href="#path-23"></use>
+                        <rect stroke="url(#radialGradient-22)" stroke-width="0.530334743" stroke-linejoin="square" fill="url(#linearGradient-21)" fill-rule="evenodd" x="0.795502086" y="0.265167372" width="30.2290787" height="22.3148529" rx="3.18200846"></rect>
+                    </g>
+                    <g id="Group" opacity="0.799999952" transform="translate(0.000000, 1.593850)">
+                        <g id="Rectangle-42">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                            <use fill-opacity="0.8" fill="#000000" fill-rule="evenodd" xlink:href="#path-25"></use>
+                        </g>
+                        <g id="Rectangle-42">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                            <use fill-opacity="0.8" fill="#000000" fill-rule="evenodd" xlink:href="#path-27"></use>
+                        </g>
+                        <g id="Rectangle-42">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-30)" xlink:href="#path-29"></use>
+                            <use fill-opacity="0.8" fill="#000000" fill-rule="evenodd" xlink:href="#path-29"></use>
+                        </g>
+                        <g id="Rectangle-42">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                            <use fill-opacity="0.8" fill="#000000" fill-rule="evenodd" xlink:href="#path-31"></use>
+                        </g>
+                        <g id="Oval-3">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-34)" xlink:href="#path-33"></use>
+                            <use stroke-opacity="0.8" stroke="#000000" stroke-width="0.530334743" xlink:href="#path-33"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

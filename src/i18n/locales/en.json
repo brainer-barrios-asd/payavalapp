@@ -1,0 +1,18 @@
+{
+    "appName": "dale!",
+    "screens":{
+        "splashScreen":{
+            "login_label":"Login",
+            "register_label":"Register"
+        },
+        "loginScreen":{
+            "login_label":"Login",
+            "email_label":"Email",
+            "password_label":"Password",
+            "forgot_password_label":"Forgot my password",
+            "remember_password_label":"Remember my password",
+            "continue_label":"Continue",
+            "register_label":"Register"
+        }
+    }
+}
