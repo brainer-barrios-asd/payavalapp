@@ -4,6 +4,9 @@ import Input from '../../../utils/forms/inputs';
 import Styles from './styles';
 import I18n from '../../../i18n';
 import ValidationRules from '../../../utils/forms/validationRules';
+import { connect } from 'react-redux';
+import { signUp } from '../../../store/actions/user_actions';
+import { bindActionCreators } from 'redux';
 
 class LoginForm extends Component{
     state = {
@@ -105,7 +108,9 @@ class LoginForm extends Component{
         }
 
         if(isFormValid){
-            console.log(formToSubmit);
+            this.props.signUp(formToSubmit).then(() => {
+                console.log("sucessful");
+            });
         } else {
             this.setState({
                 hasErrors:true
@@ -174,4 +179,16 @@ class LoginForm extends Component{
     }
 }
 
-export default LoginForm;
+function mapStateToProps(state) {
+    return {
+        User: state.user
+    }
+}
+
+
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({signUp},dispatch);
+}
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(LoginForm);

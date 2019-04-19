@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import { View, Text, ScrollView } from 'react-native';
 import { Header, CopyRight } from '../../../components';
+import LoginPanel from './loginPanel';
+import Styles from './styles';
 import { getOrientation, 
          setOrientationListener, 
          removeOrientationListener, 
          getPlatform } from '../../../utils/misc';
-import LoginPanel from './loginPanel';
-import Styles from './styles';
+
 
 
 class LoginScreen extends Component{
@@ -38,6 +39,7 @@ class LoginScreen extends Component{
     componentWillUnmount(){
         removeOrientationListener();
     }
+
     render(){
 
         return(
@@ -63,7 +65,6 @@ class LoginScreen extends Component{
         )
     }
 }
-
 
 
 export default LoginScreen;
