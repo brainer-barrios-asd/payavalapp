@@ -16,7 +16,6 @@ class LoginScreen extends Component{
         super(props);
 
         this.state = {
-            checked: true,
             platform: getPlatform(),
             orientation: getOrientation(500),
         };

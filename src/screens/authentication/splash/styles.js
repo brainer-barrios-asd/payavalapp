@@ -105,6 +105,12 @@ const styles = StyleSheet.create( {
         fontWeight: '600',
         fontStyle: 'normal',
       },
+      loading:{
+        flex:1,
+        backgroundColor:'#fff',
+        alignItems:'center',
+        justifyContent:'center',
+      },
 });
 
 export default styles;

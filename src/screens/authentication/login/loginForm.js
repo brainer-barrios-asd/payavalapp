@@ -4,16 +4,18 @@ import Input from '../../../utils/forms/inputs';
 import Styles from './styles';
 import I18n from '../../../i18n';
 import ValidationRules from '../../../utils/forms/validationRules';
+import { setTokens, getTokens } from '../../../utils/misc';
 import { connect } from 'react-redux';
-import { signUp } from '../../../store/actions/user_actions';
+import { signUp, signIn } from '../../../store/actions/user_actions';
 import { bindActionCreators } from 'redux';
+
 
 class LoginForm extends Component{
     state = {
         hasErrors:false,
         form:{
             email:{
-                value:"",
+                value:"brabame@hotmail.com",
                 valid:false,
                 error:false,
                 type:"textinput",
@@ -23,7 +25,7 @@ class LoginForm extends Component{
                 }
             },
             password:{
-                value:"",
+                value:"123456",
                 valid:false,
                 error:false,
                 type:"textinput",
@@ -94,6 +96,21 @@ class LoginForm extends Component{
         });
     }
 
+    manageAccess = () =>{
+        if(!this.props.User.userData.token){
+            this.setState({
+                hasErrors: true
+            })
+        } else {
+            setTokens(this.props.User.userData, () => {
+                this.setState({
+                    hasErrors: false
+                })
+                //this.props.navigation
+            })
+        }
+    }
+
     submitUser = () => {
         
         this.validateForm();
@@ -109,7 +126,7 @@ class LoginForm extends Component{
 
         if(isFormValid){
             this.props.signUp(formToSubmit).then(() => {
-                console.log("sucessful");
+                this.manageAccess();
             });
         } else {
             this.setState({
@@ -118,6 +135,12 @@ class LoginForm extends Component{
         }
 
         Keyboard.dismiss();
+    }
+
+    componentDidMount(){
+        getTokens( (values) =>{
+            //console.log(values);
+        })
     }
 
     render(){
@@ -181,13 +204,13 @@ class LoginForm extends Component{
 
 function mapStateToProps(state) {
     return {
-        User: state.user
+        User: state.User
     }
 }
 
 
 function mapDispatchToProps(dispatch) {
-    return bindActionCreators({signUp},dispatch);
+    return bindActionCreators({signUp, signIn},dispatch);
 }
 
 
