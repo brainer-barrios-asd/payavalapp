@@ -10,6 +10,7 @@ import { signUp, signIn } from '../../../store/actions/user_actions';
 import { bindActionCreators } from 'redux';
 
 
+
 class LoginForm extends Component{
     state = {
         hasErrors:false,
@@ -125,8 +126,8 @@ class LoginForm extends Component{
         }
 
         if(isFormValid){
-            this.props.signUp(formToSubmit).then(() => {
-                this.manageAccess();
+            this.props.signIn(formToSubmit).then(() => {
+                //this.manageAccess();
             });
         } else {
             this.setState({

@@ -7,20 +7,42 @@ import {
 import axios from 'axios';
 
 
+
 export function signIn (data){
+    // const request = axios({
+    //     method: 'POST',
+    //     url:'https://jsonplaceholder.typicode.com/posts',
+    //     data:{
+    //         email: data.email,
+    //         password: data.password,
+    //     },
+    //     headers:{
+    //         "Content-Type":"application/json"
+    //     }
+    // }).then( response => {
+    //     return response.data;
+    // }).catch(e => {
+    //     return false;
+    // })
+
     const request = axios({
         method: 'POST',
-        url:'https://jsonplaceholder.typicode.com/posts',
+        url:'https://api.novopayment.net/oauth2.0/1.0/token',
         data:{
-            email: data.email,
-            password: data.password,
+            grant_type: "client_credentials",
+            client_id: "e97d057dde513bbe631d3ab28f963eb9",
+            client_secret: "6aa6bca7e34a8e172b0f7f7505afc3e6"
         },
         headers:{
-            "Content-Type":"application/json"
+            'content-type': 'application/json',
+            'x-language': 'es',
+            'x-channel': 'channel',
         }
     }).then( response => {
+        console.log(response.data);
         return response.data;
     }).catch(e => {
+        console.log(e);
         return false;
     })
 

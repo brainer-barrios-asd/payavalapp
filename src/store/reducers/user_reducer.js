@@ -12,9 +12,9 @@ export default function(state={}, action){
             return {
                         ...state,
                         userData:{
-                            uid: action.payload.id || false,
-                            token: action.payload.id || false,
-                            refToken: action.payload.id || false,
+                            uid: action.payload.accessToken || false,
+                            token: action.payload.accessToken || false,
+                            refToken: action.payload.refreshToken || false,
                         }
                     }
             break;
@@ -22,9 +22,9 @@ export default function(state={}, action){
             return {
                         ...state,
                         userData:{
-                            uid: action.payload.id || false,
-                            token: action.payload.id || false,
-                            refToken: action.payload.id || false,
+                            uid: action.payload.accessToken || false,
+                            token: action.payload.accessToken || false,
+                            refToken: action.payload.refreshToken || false,
                         }
                     }
             break;
