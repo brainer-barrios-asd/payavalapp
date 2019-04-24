@@ -32,6 +32,7 @@ class SplashScreen extends Component{
     }
 
     componentDidMount(){
+        console.log('componentDidMount')
         getTokens( (values) =>{
             if(values[0][1] === null){
                 this.setState({loading:false})
