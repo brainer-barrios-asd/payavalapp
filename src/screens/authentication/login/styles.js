@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: '600',
         fontStyle: 'normal',
+        fontFamily: 'AvenirNext',
     },
     recordar_contraseña:{
         flexDirection:'row',
