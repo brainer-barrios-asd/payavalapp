@@ -58,9 +58,18 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         alignItems:'flex-start',
         marginBottom:10,
+        paddingLeft:20,
+        paddingRight:20,
+      },
+      login_button_container:{
+        flex:1, 
+        flexDirection:"row", 
+        justifyContent:"space-between", 
+        alignItems:"center", 
+        width:'100%',
+        
       },
       login_button_text: {
-        paddingLeft:20,
         color:'#fff',
         fontSize: 16,
         fontWeight: '400',

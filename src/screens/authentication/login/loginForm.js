@@ -8,6 +8,7 @@ import { setTokens, getTokens } from '../../../utils/misc';
 import { connect } from 'react-redux';
 import { signUp, signIn } from '../../../store/actions/user_actions';
 import { bindActionCreators } from 'redux';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 
@@ -190,7 +191,14 @@ class LoginForm extends Component{
                     <TouchableOpacity
                         style={Styles.login_button}
                         onPress={this.submitUser}>
-                        <Text style={Styles.login_button_text}> {I18n.t('screens.loginScreen.continue_label')} </Text>
+
+                        <View style={Styles.login_button_container}>
+                            
+                            <Text style={Styles.login_button_text}> {I18n.t('screens.loginScreen.continue_label')} </Text>
+                            <Icon name="arrow-right" size={25} color="#fff" style={{fontWeight:"400"}}></Icon>
+
+                        </View>
+                        
                     </TouchableOpacity>
                 </View>
                 

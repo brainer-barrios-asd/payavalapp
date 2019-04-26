@@ -3,6 +3,7 @@ package com.payavalapp;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.reactcommunity.rnlanguages.RNLanguagesPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import com.AlexanderZaytsev.RNI18n.RNI18nPackage;
@@ -28,6 +29,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new LinearGradientPackage(),
             new RNLanguagesPackage(),
             new AsyncStoragePackage(),
             new RNI18nPackage(),
