@@ -5,5 +5,6 @@ export default {
     Splash: 'SplashScreen',
     Login: 'LoginScreen',
     Home: 'HomeScreen',
+    Flight: 'FlightScreen',
 };
 

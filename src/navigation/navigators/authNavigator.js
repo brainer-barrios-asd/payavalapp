@@ -1,6 +1,6 @@
 
 import { createStackNavigator } from 'react-navigation';
-import {LoginScreen, SplashScreen, HomeScreen} from '../../screens';
+import {LoginScreen, SplashScreen, HomeScreen, FlightScreen} from '../../screens';
 import Screens from '../../constants/screens';
 
 const AuthNavigator = createStackNavigator(
@@ -23,6 +23,12 @@ const AuthNavigator = createStackNavigator(
           header: null,
         },
     },
+    [Screens.Flight]:{
+      screen: FlightScreen,
+      navigationOptions: {
+          header: null,
+        },
+  },
    },
    {
     initialRouteName: Screens.Splash

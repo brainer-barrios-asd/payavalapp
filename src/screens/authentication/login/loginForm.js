@@ -10,6 +10,8 @@ import { signUp, signIn } from '../../../store/actions/user_actions';
 import { bindActionCreators } from 'redux';
 import Screens from '../../../constants/screens'; 
 import { withNavigation } from 'react-navigation'; 
+import Icon from 'react-native-vector-icons/FontAwesome';
+
 
 
 class LoginForm extends Component{
@@ -197,7 +199,15 @@ class LoginForm extends Component{
                     <TouchableOpacity
                         style={Styles.login_button}
                         onPress={() => {this.props.navigation.navigate(Screens.Home)}}>
-                        <Text style={Styles.login_button_text}> {I18n.t('screens.loginScreen.continue_label')} </Text>
+                         {/* onPress={this.submitUser}> */}
+
+                        <View style={Styles.login_button_container}>
+                            
+                            <Text style={Styles.login_button_text}> {I18n.t('screens.loginScreen.continue_label')} </Text>
+                            <Icon name="arrow-right" size={25} color="#fff" style={{fontWeight:"400"}}></Icon>
+
+                        </View>
+                        
                     </TouchableOpacity>
                 </View>
                 

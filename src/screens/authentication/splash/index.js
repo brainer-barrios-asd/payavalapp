@@ -103,9 +103,9 @@ class SplashScreen extends Component{
                             </TouchableOpacity>
     
                             <TouchableOpacity
-                                style={Styles.register_button}>
-                                <Text  style={Styles.register_text}> {I18n.t('screens.splashScreen.register_label')} </Text>
-    
+                                style={Styles.register_button}
+                                onPress={()=>{this.props.navigation.navigate(Screens.Flight)}}>
+                                <Text  style={Styles.register_text}> {I18n.t('screens.splashScreen.register_label')} </Text>                                
                             </TouchableOpacity>
                         </View> 
                     </View>
