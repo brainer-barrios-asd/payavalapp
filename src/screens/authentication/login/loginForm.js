@@ -8,52 +8,59 @@ import { setTokens, getTokens } from '../../../utils/misc';
 import { connect } from 'react-redux';
 import { signUp, signIn } from '../../../store/actions/user_actions';
 import { bindActionCreators } from 'redux';
-
+import Screens from '../../../constants/screens'; 
+import { withNavigation } from 'react-navigation'; 
 
 
 class LoginForm extends Component{
-    state = {
-        hasErrors:false,
-        form:{
-            email:{
-                value:"brabame@hotmail.com",
-                valid:false,
-                error:false,
-                type:"textinput",
-                rules: {
-                    isRequired:true,
-                    isEmail:true,
-                }
-            },
-            password:{
-                value:"123456",
-                valid:false,
-                error:false,
-                type:"textinput",
-                rules: {
-                    isRequired:true,
-                    minLength:6,
-                }
-            },
-            rememberPassword:{
-                value:false,
-                valid:true,
-                error:false,
-                type:"checkbox",
-                rules: {
-                    
-                }
-            },
-            // confirmPassword:{
-            //     value:"",
-            //     valid:false,
-            //     type:"textinput",
-            //     rules: {
-            //         confirmPass:"password",
-            //     }
-            // }
+
+    constructor(props){
+        super(props);
+            
+        this.state = {
+            hasErrors:false,
+            form:{
+                email:{
+                    value:"brabame@hotmail.com",
+                    valid:false,
+                    error:false,
+                    type:"textinput",
+                    rules: {
+                        isRequired:true,
+                        isEmail:true,
+                    }
+                },
+                password:{
+                    value:"123456",
+                    valid:false,
+                    error:false,
+                    type:"textinput",
+                    rules: {
+                        isRequired:true,
+                        minLength:6,
+                    }
+                },
+                rememberPassword:{
+                    value:false,
+                    valid:true,
+                    error:false,
+                    type:"checkbox",
+                    rules: {
+                        
+                    }
+                },
+                // confirmPassword:{
+                //     value:"",
+                //     valid:false,
+                //     type:"textinput",
+                //     rules: {
+                //         confirmPass:"password",
+                //     }
+                // }
+            }
         }
     }
+
 
     updateInput = (name, value) => {
     
@@ -189,7 +196,7 @@ class LoginForm extends Component{
                 <View>
                     <TouchableOpacity
                         style={Styles.login_button}
-                        onPress={this.submitUser}>
+                        onPress={() => {this.props.navigation.navigate(Screens.Home)}}>
                         <Text style={Styles.login_button_text}> {I18n.t('screens.loginScreen.continue_label')} </Text>
                     </TouchableOpacity>
                 </View>
@@ -215,4 +222,4 @@ function mapDispatchToProps(dispatch) {
 }
 
 
-export default connect(mapStateToProps,mapDispatchToProps)(LoginForm);
+export default connect(mapStateToProps,mapDispatchToProps)( withNavigation(LoginForm));

@@ -4,5 +4,6 @@ export default {
     NaturalPerson: 'NaturalPerson',
     Splash: 'SplashScreen',
     Login: 'LoginScreen',
+    Home: 'HomeScreen',
 };
 
