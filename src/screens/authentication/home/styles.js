@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
         marginTop: StatusBar.currentHeight + 30,
         paddingLeft:30, 
         paddingRight:30,
-        //justifyContent: 'flex-start',
+        justifyContent: 'flex-start',
         alignItems: 'stretch',
     },
     scrollViewContainer:{

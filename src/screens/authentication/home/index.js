@@ -45,26 +45,26 @@ class HomeScreen extends Component{
     render(){
 
         return(
-             <View style={Styles.container}>
+              <View style={Styles.container}>
             
-             <Header/>
+              <Header/>
                     
             <WebView
                     source={{uri: 'http://qa-merchant-alb-1145103748.us-east-2.elb.amazonaws.com/Account/RappiLogin?returnUrl=http://qa-merchant-alb-1145103748.us-east-2.elb.amazonaws.com'}}
-                    useWebKit={true}
+                    // useWebKit={true}
                     javaScriptEnabled={true}
                     domStorageEnabled={true}
                     startInLoadingState={true}
                     scalesPageToFit={true}
-                    style={{flex: 2,width:'100%', height: 100}}
-                    onLoadEnd={e => console.log("loadend event", e)}
-                    onNavigationStateChange={ this.setWebViewUrlChanged }
+                    style={{flex: 1,width:'100%', height: 100}}
+                    // onLoadEnd={e => console.log("loadend event", e)}
+                     onNavigationStateChange={ this.setWebViewUrlChanged }
                     >
             </WebView>
             
                     
      
-         </View>
+          </View>
         )
     }
 }
